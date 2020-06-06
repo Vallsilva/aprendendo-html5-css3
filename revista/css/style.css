@@ -9,9 +9,22 @@ header{
     margin: 0 10%;
 }
 h1{
-    font-size: 20px;
+    position: relative;
+    vertical-align: 2px;
+    right: 0;
+    font-size: 100px;
+    color: rgb(124, 58, 1);
     display: inline;
- 
     font-weight: bold;
     font-style: italic;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 20px;
+}
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(235, 156, 86);
+    text-decoration: none;
 }
