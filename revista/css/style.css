@@ -1,0 +1,17 @@
+header{
+    width: 100%;
+    background: #E0CDBC;   
+}
+
+.imagem-cabecalho{
+    width: 120px;
+    display: inline;
+    margin: 0 10%;
+}
+h1{
+    font-size: 20px;
+    display: inline;
+ 
+    font-weight: bold;
+    font-style: italic;
+}
