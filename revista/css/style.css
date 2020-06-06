@@ -42,12 +42,31 @@ nav a:hover{
 main{
     width: 100%;
     background: linear-gradient(#E0CDBC, #FFFFFF, #E0CDBC) ;
+    margin: 0;
+    padding: 0;
 }
 .imagem-principal{
     width: 50%;
     padding: 0 20px 0 0;
-    margin: 0 20px 0 0;
-
+    margin: 0 5px 0 0;
+    display: inline-block;
+    float: left;
+}
+section{
+    display: inline-block;
+}
+section p{
+    position: relative;
+    top: 200px;
+    left: 5px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5;
+}
+.negrito{
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
 }
 footer{
     width: 100%;
